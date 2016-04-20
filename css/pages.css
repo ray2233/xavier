@@ -1,0 +1,84 @@
+	/* #Page Styles
+	================================================== */
+	
+	
+	
+	/* TEAM ------*/
+
+
+	.our-team .socialfollow a.facebook:hover{ background:#3b5996; border-color:#3b5996; }
+	.our-team .socialfollow a.twitter:hover{ background:#00acee;border-color:#00acee;}
+	.our-team .socialfollow a.vimeo:hover{ background:#0dadd6;border-color:#0dadd6;}
+	.our-team .socialfollow a.dribble:hover{ background:#d53e68;border-color:#d53e68;}
+	.our-team .socialfollow a.youtube:hover{ background:#cb322c;border-color:#cb322c;}
+	.our-team .socialfollow a.pinterest:hover{ background:#cb2027;border-color:#cb2027;}
+	.our-team .socialfollow a.google:hover{ background:#c3391c;border-color:#c3391c;}
+	.our-team .socialfollow a.linkedin:hover{ background:#0073b2;border-color:#0073b2;}
+	.our-team .socialfollow .socialfollow a.rss:hover{ background:#f29a1d;border-color:#f29a1d;}
+	.our-team .socialfollow a:hover i {color: #fff !important;}
+	.socialfollow img { opacity:0.79;}
+
+	.our-team .socialfollow i {color: #ddd;font-size: 18px; opacity: 0.95;padding: 0px;}
+	.our-team .socialfollow a:last-of-type {margin-right: 0px;}
+	.our-team .socialfollow a {border-radius: 50%;display: inline-block; margin: 0 2px;
+	overflow: hidden; padding: 9px 10px 6px !important;text-decoration: none;transition: all 0.31s ease 0s; border:2px solid #e5e5e5; width:auto;}
+	.our-team .socialfollow a:hover i {color: #fff;}
+
+
+  .our-team {background:#fff; width: 210px; box-shadow: 10px 10px 5px #888888;}
+	.our-team img {width: 200px;border: 8px solid transparent;}
+	.our-team:hover img {border: 8px solid #FFFF00;}
+	.our-team {text-align: center; margin-bottom: 75px;cursor: pointer;}
+	.our-team .socialfollow { margin: 0 auto; padding-top: 0; }
+	.our-team h2 {color: #58A77D;}
+	.our-team h4 { font-size: 22px;line-height: 20px; margin-top:12px; }
+	.our-team .sectionTitleHeaderDivider {border-color:#e4322f; }
+	figcaption h4 strong small { border-bottom: 1px solid #CCCCCC; color: #58A77D; display: block; margin: 0px auto 10px;padding: 10px; width: 80%;}
+	.our-team:hover {}
+	figcaption h4 {color: #555; margin-bottom: -10px;}
+	figure.our-team figcaption h4 strong {font-weight: normal !important;}
+	figure.our-team:hover figcaption h4 strong{color: #E13138;}
+	figure.our-team p {color: #CCCCCC; margin: 0; padding: 10px;}
+	.our-team:hover p {color: #716765;}
+	.our-team .socialfollow a i {color: #ddd;}
+	.our-team:hover .socialfollow a i {color: #979797;}
+	
+	
+	
+	
+	
+		/* -------------------------------------------------------*/
+	/* CONTACT PAGE*/
+	/* -------------------------------------------------------*/
+
+	.google-map-canvas,
+	.google-map-canvas * { .box-sizing(content-box); }
+	/* Optional responsive image override */
+	img { max-width: none; }
+	.map {padding: 0px;}
+	 .mainContent.googleMap {padding: 0px;min-height: 350px;}
+	 .mainContent.googleMap iframe { border-bottom: 5px solid #ccc;}
+
+	 .contactDetails h4 {border-bottom: 3px solid #ddd; padding-bottom: 5px;text-align: left;}
+	 .contactDetails .list-group-item:first-child {border-top-left-radius: 0px;border-top-right-radius: 0px;
+	-webkit-border-top-left-radius: 0px;-webkit-border-top-right-radius: 0px;
+	-moz-border-top-left-radius: 0px;-moz-border-top-right-radius: 0px;}
+
+	 .contactDetails .container {background: url("../images/contactMapBG.png") no-repeat scroll 81px 50px rgba(0, 0, 0, 0); }
+
+	 .contactDetails .list-group-item {background:transparent; border: none;display: block; margin-bottom: 0px; padding: 13px 0px;position: relative;color: #555;font-size: 12px;}
+	 .contactItemIcon { float: left; border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;display: block;height: 30px;margin-right: 10px;width: 30px; margin-top: -4px;}
+	 .contactItemIcon i {color: #999;display: block;font-size: 15px;height: 30px;padding: 8px;width: 30px;}
+	.btn {
+	vertical-align: middle;
+	cursor: pointer;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	}
+	 .btn-default {border: none;font-size:14px;line-height:1.2;margin-right:10px;border-radius: 5px;display: block; padding: 7px 15px;text-align: center;background: #9EB5B6;color: #fff;font-weight: bold;margin-bottom: 10px;}
+
+	.btn-default:hover {background: #2376de;border: none;color: #fff;}
+	.contactForm .btn-default:hover {background: #60B240;border: none;}
+	.contactForm .btn-default.reset:hover {font-size:14px;line-height:1.2;background: #2376de !important; border: none;border-radius: 5px;display: block; padding: 7px 15px;text-align: center;color: #fff;font-weight: bold;}
+
+	 .contactInfo, .contactForm {min-height: 490px;}

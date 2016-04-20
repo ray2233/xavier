@@ -1,0 +1,52 @@
+
+/* #Shop Styles
+================================================== */
+
+	.ShopSection .shop-item h1 {color: #999; font-size: 35px; font-weight: 300;}
+	.ShopSection .shop-item h4 a { font-weight: 300; }
+	.ShopSection .shop-item { display:block; position:relative;}
+	.ShopSection .shop-item img { border:1px solid #e5e5e5;max-width: 100%;}
+	.ShopSection .shop-item .product-shop { height:42px; margin-right:-2px; border-top:3px solid #e5e5e5; padding-top:8px; margin-bottom:40px;}
+	.ShopSection p.price { font-family:"Open Sans", Arial;}
+	.ShopSection p.price span.amount, h2.price span.amount { color:#6bb15f; font-size:18px; font-weight:400;}
+	.ShopSection p.price small, h2.price small { color:#797979; font-size:13px; text-decoration:line-through; margin-right:10px;}
+	.ShopSection h2.price small { font-size:21px;}
+	.ShopSection h2.price span.amount { font-size:34px;}
+	.ShopSection .shop-item .onsale { height: 40px; width: 40px; padding: 4px; font-size: 12px; font-weight: bold; position: absolute; text-align: center; line-height: 32px; top: -14px; left: 35px; margin: 0; background: #2376de; color: #fff; -webkit-border-radius: 30px; -moz-border-radius: 30px;  border-radius: 30px;}
+
+	.ShopSection .side-list ul, ul.side-list { list-style:none; margin-left:0; margin-bottom:30px; border-top:1px solid #e5e5e5;padding: 0px;}
+	.ShopSection .side-list li { border-bottom:1px solid #e5e5e5; padding:15px 0 5px; margin:0;}
+	.ShopSection .side-list li:hover { background:#fdfdfd;}
+	.ShopSection .side-list img { float:left; width:62px; height:62px; padding:2px; background:#e5e5e5; margin-right:10px;}
+	.ShopSection .side-list h5 { font-size:15px; margin:0 0 10px;}
+	.ShopSection .side-cart { padding:0 0 10px 0; margin-bottom:30px; position:relative;}
+	.ShopSection .side-cart h4.subtitle {font-weight: 600; margin-top:0px; color:#2376de; margin-bottom:2px; margin-left:0;padding-bottom: 5px;}
+	.ShopSection  .sidebar h4 {border:none;font-weight: 600;}
+	.ShopSection .side-cart i { float:left; display:in-block; font-size:18px; color:inherit; margin-right:5px; margin-top:4px;}
+	.ShopSection .side-cart .side-list { border-top:3px solid #2376de;  margin-bottom:2px; }
+	.ShopSection .side-cart .total { border-top:2px solid #dfdfdf; padding-top:12px;}
+	.ShopSection .side-cart .button { float:left; margin-right:10px; background:#ff5d5e;}
+	.ShopSection .buttons_added a.addtocart { padding:6px 12px 5px 26px; background-color:#fff; border-radius:5px;}
+	.ShopSection .buttons_added a.addtocart:before { left:10px; top:9px;}
+	.ShopSection .buttons_added a.addtocart:hover { background-color:#f6f6f6;}
+	.ShopSection .buttons_added input[type=text] { width:30px; text-align:center; float:left;  padding:5px 10px; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3) inset; border:1px solid #9a9a9a; margin:0;}
+	.ShopSection .buttons_added input[type=button] {  float: left; font-size: 20px; height: 28px; margin: 0; padding: 2px 16px 5px; }
+	.ShopSection .buttons_added input[type=button].minus { border-radius: 3px 0 0 3px; }
+	.ShopSection .buttons_added input[type=button].plus { border-radius: 0 3px 3px 0; }
+	.ShopSection .result-count { display:inline-block; float:left; margin-right:20px; border-left:7px solid #2376de; padding:4px 0 4px 7px;}
+	.ShopSection .ordering { float:right;}
+
+
+	.ShopSection a.addtocart,.ShopSection  a.select-options { padding:4px 2px 2px 0px; color:#7f7f7f; float:right; display:inline-block; font-size:13px; font-weight:300;}
+	.ShopSection a.select-options { float:left;}
+	.ShopSection a.addtocart:hover,.ShopSection  a.select-options:hover { color:#2376de; cursor:pointer;}
+	.ShopSection a.addtocart:before,.ShopSection  a.select-options:before  {font-family: icomoon; content: "\e0ca"; color:inherit; top:8px; left:1px; font-size:13px; margin-right: 5px;} 
+	.ShopSection a.select-options:before {font-family: icomoon; content: "\e08f"; }
+
+	.ShopSection .ElementTabs .tab-content {
+
+	border: none;
+	border: 1px solid #ddd;
+	border-top:none; 
+	padding: 0 25px 25px;
+	}
